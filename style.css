@@ -28,9 +28,7 @@ html{
     width:"800px"
 }
 
-.card:hover {
-    transform: scale(1.1);
-  }
+
 
 
 .about-heading{
@@ -60,3 +58,93 @@ html{
    
     
 }
+
+.person{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+  
+}
+
+.reviews{
+    background-image: url('https://images.pexels.com/photos/7130537/pexels-photo-7130537.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-position: center;
+}
+
+/* 
+.flex{
+   
+    display: flex;
+    flex-direction: column;
+    background-image: url('');
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ffffff;
+} */
+#contact{
+    margin-top: 50px;
+}
+.heading-border{
+    width: 40%;
+border-bottom: 2px solid #11bbba;
+margin: 15px 0;
+}
+
+.info-border{
+    width: 40%;
+border-bottom: 2px solid #11bbba;
+margin: 15px 0;
+}
+.icon-set{
+   margin-top: 1.2rem
+}
+.icon i{
+    font-size: 30px;
+   padding: 18px;
+   color:  #11bbba;;
+   
+   
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(231, 222, 224);
+}
+footer{
+    background-color: #002d2b;
+}
+footer a{
+   text-decoration: none; 
+   color: #ffffff; 
+   font-size: 18px;
+   
+}
+footer .color-white{
+    color: white;
+}
+.footer-icons{
+    font-size: 25px;
+   padding: 20px;
+   margin-left: 10px;
+
+   
+}
+.copyright{
+    color: white;
+    background-color:#011c1a;
+    text-align: center;
+    font-size: 16px;
+     padding: 8px;
+   
+}
+
+
+
