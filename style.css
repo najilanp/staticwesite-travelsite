@@ -28,13 +28,35 @@ html{
     width:"800px"
 }
 
-/* .page-header {
-    text-align: center;
-   padding-top: 200px;
-   padding-bottom: 0;
-   font-size: 75px;
-   color: white;
+.card:hover {
+    transform: scale(1.1);
+  }
+
+
+.about-heading{
+    background-image: url('https://images.pexels.com/photos/1166644/pexels-photo-1166644.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-position: center;
+
+
+}
+.package-name{
+    color: rgb(233, 114, 134);
+    font-weight: bold;
+    font-family:cursive
+}
+.about-desc-background{
+    background-image: url('https://media.istockphoto.com/id/1342166927/photo/abstract-pink-background.jpg?b=1&s=612x612&w=0&k=20&c=L9luZcSuSvDNzhSIJG6HvxlbR6CEF2wHpgh2uqd0mOQ=');
+    background-size: cover;
+    background-position: center;
+
   
-
-
-} */
+  
+   
+}
+.about-desc{
+    text-align: justify;
+    overflow: hidden;
+   
+    
+}
