@@ -17,6 +17,7 @@ html{
     /* background-attachment: fixed; */
     background-position: center;
     
+    
 }
 .heading{
     font-family: sans-serif;
@@ -124,7 +125,7 @@ footer{
 footer a{
    text-decoration: none; 
    color: #ffffff; 
-   font-size: 18px;
+   font-size: 16px;
    
 }
 footer .color-white{
@@ -132,7 +133,6 @@ footer .color-white{
 }
 .footer-icons{
     font-size: 25px;
-   padding: 20px;
    margin-left: 10px;
 
    
@@ -145,6 +145,77 @@ footer .color-white{
      padding: 8px;
    
 }
+#destination{
+    margin-top: 100px;
+    
+}
+.card-destination{
+    position: relative;
+    
+}
+.background-details{
+    background-color:transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+  
+   
+}
+.border-heading{
+    width: 50%;
+    border-bottom: 3px solid #11bbba;
+    
+}
+.background-details p{
+   font-size: 20px;
+}
+.background-details:hover{
+    opacity: 1;
+}
+.background-img1{
+    background: url('https://images.unsplash.com/photo-1552051263-6eb5bb6905b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmFja2dyb3VuZCUyMHRyaXAlMjBidWlsZGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60');
+    background-size: cover;
+    background-position: center;
+}
+.background-img2{
+    background: url('https://media.istockphoto.com/id/1135164844/photo/nepal-girl-spreads-her-hands-wide-manang-valley.webp?b=1&s=170667a&w=0&k=20&c=0T3BVAkLCmyhhHzF-ODedLG8e94KqxSNtGc6X1U_Vdw=');
+    background-size: cover;
+    background-position: center;
 
+}
+.background-img3{
+    background: url('https://media.istockphoto.com/id/1382803490/photo/indian-temple.webp?b=1&s=170667a&w=0&k=20&c=fytb-MKYz_4uCSIl1pG1FX3OnMqwGj3h1rqG-W7rjm4=');
+    background-size: cover;
+    background-position: center;
+
+}
+.background-img4{
+    background: url('https://images.unsplash.com/photo-1593417033920-3c04818ee8a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFsbGVwcGV5fGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60');
+    background-size: cover;
+    background-position: center;
+
+}
+.background-img5{
+    background: url('https://images.unsplash.com/photo-1582510003544-4d00b7f74220?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hlbm5haXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60');
+    background-size: cover;
+    background-position: center;
+
+}
+.background-img6{
+    background: url('https://images.pexels.com/photos/15983035/pexels-photo-15983035/free-photo-of-beach-umbrellas-on-beach-in-town.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-position: center;
+
+}
 
 
